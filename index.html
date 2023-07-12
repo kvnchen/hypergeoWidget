@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Hypergeometric Calculator Widget</title>
+    </head>
+    <body>
+        <h4>Hypergeometric Calculator</h4>
+        <p>
+            <label for="population">Population</label>
+            <input id="population" type="number" value="0" min="0" max="1000" step="1">
+        </p>
+        <p>
+            <label for="sample">Sample Size</label>
+            <input id="sample" type="number" value="0" min="0" max="1000" step="1">
+        </p>
+        <p>
+            <label for="successes">Successes in Population</label>
+            <input id="successes" type="number" value="0" min="0" max="1000" step="1">
+        </p>
+        <p>
+            <label for="target">Successes in Sample</label>
+            <input id="target" type="number" value="0" min="0" max="1000" step="1">
+        </p>
+        <p>
+            <button type="button" id="calc">Calculate</button>
+        </p>
+        <p id="output" hidden></p>
+        <script src="./hypergeo.js"></script>
+    </body>
+</html>
