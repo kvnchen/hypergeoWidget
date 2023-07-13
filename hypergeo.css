@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    width: 20vw;
+    height: 64vh;
+    font-size: 1.3em;
+}
+
+#input-group {
+    width: 13vw;
+}
+
+#input-group input {
+    height: 1.3em;
+    width: 4em;
+    font-size: 0.75em;
+    float: right;
+}
+
+button {
+    width: 4vw;
+    height: 4vh;
+    font-size: 0.75em;
+}
