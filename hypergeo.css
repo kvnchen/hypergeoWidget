@@ -4,13 +4,13 @@ body {
 }
 
 #container {
-    width: 20vw;
-    height: 64vh;
-    font-size: 1.3em;
+    width: min(90vw, 972px);
+    height: min(90vh, 2106px);
+    font-size: 2.4em;
 }
 
 #input-group {
-    width: 13vw;
+    width: min(77vw, 832px);
 }
 
 #input-group input {
@@ -21,7 +21,7 @@ body {
 }
 
 button {
-    width: 4vw;
-    height: 4vh;
+    width: min(16vw, 173px);
+    height: min(6vw, 140px);
     font-size: 0.75em;
 }
