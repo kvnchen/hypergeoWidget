@@ -95,5 +95,11 @@ function calculate() {
     }
 }
 
+if (window.location !== window.parent.location) {
+    console.log('embed detected');
+    const container = document.getElementById('container');
+    container.style = 'font-size: 1em';
+}
+
 const button = document.getElementById('calc');
 button.addEventListener('click', calculate, false);
