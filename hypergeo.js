@@ -96,9 +96,13 @@ function calculate() {
 }
 
 if (window.location !== window.parent.location) {
-    console.log('embed detected');
     const container = document.getElementById('container');
-    container.style = 'font-size: 1em';
+
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+        container.style = 'font-size: 1em';
+    } else {
+        container.style = 'font-size: 1.4em';
+    }
 }
 
 const button = document.getElementById('calc');
