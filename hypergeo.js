@@ -101,7 +101,7 @@ if (window.location !== window.parent.location) {
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
         container.style = 'font-size: 1em';
     } else {
-        container.style = 'font-size: 1.4em';
+        container.style = 'font-size: 1.2em';
     }
 }
 
