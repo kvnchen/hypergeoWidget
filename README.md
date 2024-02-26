@@ -1,6 +1,6 @@
 ## Overview
 
-A Hypergeometric calculator.
+A Hypergeometric calculator. Try it [here](https://kvnchen.github.io/hypergeoWidget/).
 
 Given a population, sample size, successes in population, and target number of successes, the calculator will output the probability of the exact target, of at least the target, and of no successes.
 
