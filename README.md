@@ -12,6 +12,7 @@ This widget was created as an interactive supplement to an article I wrote on ho
 What is the probability of drawing at least two lands in the opening hand of my 100 card deck if I run 38 lands?
 
 > population: 100, sample size: 7, successes in population: 38, target: 2
+>
 > exactly 2: 28.42%, at least 2: 82.33%, none: 3.07%
 
 When drawing an opening hand without any assumptions, we use the maximum deck size as our population.  
@@ -23,6 +24,7 @@ We want at least 2 lands, so that's our target.
 How many Forests do I need for Arbor Elf to be very reliable on turn 1 on the play?
 
 > population: 99, sample size: 6, successes in population: 31, target: 1
+>
 > exactly 1: 28.84%, at least 1: 90.23%, none: 9.77%
 
 This example is assuming we are looking at opening hands that contain Arbor Elf, thus our sample size and population are each reduced by 1. The distinction between this and the general probability of at least one Forest without Arbor Elf is made because we wouldn't necessarily care about having a Forest when we don't have a card that specifically wants one.
